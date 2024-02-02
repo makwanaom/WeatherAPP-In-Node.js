@@ -1,0 +1,16 @@
+{
+    "verson" : 2,
+    "build" :[
+    {
+        "src":"./index.js",
+        "use" : "@vercle/node"
+    }
+  ],
+  "return" : [
+    {
+        "src" : "/(.*)",
+        "dest" : "/"
+    }
+  ]
+
+}
